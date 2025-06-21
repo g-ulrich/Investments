@@ -1,0 +1,42 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# dotenv environment variables
+.env
+.env.*.local
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Optional: build output
+dist/
+build/
+coverage/
+
+# Optional: dependency lock files (uncomment only if using a specific lock file strategy)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Test coverage
+.nyc_output/
+coverage/
+
+# Misc
+*.tgz
+*.swp
