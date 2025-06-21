@@ -3,9 +3,9 @@ const {Discord} = require('./discord');
 class BackgroundClass {
     constructor(props) {
         this.discord = new Discord();
-        this.log('```javascript\nHello: ${new Date()}```');
+        this.log(`Hello: ${new Date()}\n` + '```javascript\nHello: ${new Date()}```');
         this.id = setInterval(()=>{
-            this.log('```javascript\nHello: ${new Date()}```');
+            this.log(`Hello: ${new Date()}\n` + '```javascript\nHello: ${new Date()}```');
         }, 60000);
     }
 
