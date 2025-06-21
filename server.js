@@ -1,11 +1,12 @@
 // server.js
 const express = require('express');
-const path = require('path'); // <-- this was missing
+const path = require('path');
+const {BackgroundClass} = require('./src/main');
 const app = express();
 const PORT = 3000;
 
 // Serve static files from 'web' folder
-app.use(express.static('web'));
+app.use(express.static('src/web'));
 
 // Root route
 // app.get('/', (req, res) => {
@@ -14,4 +15,5 @@ app.use(express.static('web'));
 
 app.listen(PORT, () => {
   console.log(`Server is running at http://localhost:${PORT}`);
+  new BackgroundClass();
 });
