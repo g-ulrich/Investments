@@ -1,0 +1,32 @@
+/* Flexbox utility classes for vertical and horizontal layouts */
+.flex-vertical {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.flex-horizontal {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+/* Basic card styling */
+.card {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Tradestation card colors */
+.card-tradestation {
+  background-color: #003366; /* Tradestation dark blue */
+  color: white;
+}
+
+/* Robinhood card colors */
+.card-robinhood {
+  background-color: #00c805; /* Robinhood green */
+  color: white;
+}

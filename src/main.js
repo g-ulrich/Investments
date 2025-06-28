@@ -1,3 +1,4 @@
+
 const {Discord} = require('./discord');
 
 class BackgroundClass {
@@ -13,7 +14,6 @@ class BackgroundClass {
         this.discord.sendMessage(txt);
     }
 }
-
 
 module.exports = {
     BackgroundClass
